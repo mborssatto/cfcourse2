@@ -1,0 +1,66 @@
+.nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 20px 60px 10px 60px;
+
+}
+
+
+.nav a:hover {
+     color: #ff0;
+     text-decoration: none;
+}
+
+.nav a{
+	transition: color 600ms;
+}
+
+.nav ul {
+	float: right;
+	word-spacing: 20px;
+}
+
+.nav ul li{
+	display: inline-block;
+}
+
+.nav ul li a {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+.nav {
+   background-color: black;
+}
+
+.nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+body {
+	padding-top: 50px;
+}
+
+
+.jumbotron {
+  background-image: url("../img/earth.png");
+  background-size: cover;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+
+.panel-group {
+	width: 80%;
+	margin-right: auto; 
+	margin-left: auto
+}

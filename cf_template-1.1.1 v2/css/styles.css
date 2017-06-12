@@ -1,0 +1,161 @@
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 20px 60px 10px 60px;
+	z-index: 1;
+}
+
+
+.navbar a:hover {
+     color: #ff0;
+     text-decoration: none;
+}
+
+.navbar a {
+	transition: color 600ms;
+}
+
+.navbar ul {
+	float: right;
+	word-spacing: 20px;
+}
+
+.navbar ul li{
+	display: inline-block;
+}
+
+.navbar ul li a {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+.navbar {
+   background-color: black;
+}
+
+.navbar ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+
+.navbar a:active {
+  color: #ff0;
+  background-color: yellow;
+}
+
+body {
+	padding-top: 50px;
+}
+
+
+.carousel img {
+	margin: auto;
+}
+
+.carousel p {
+	padding-bottom: 70px
+}
+
+.jumbotron {
+  background-image: url("../img/earth.png");
+  background-size: cover;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+
+.panel-group {
+	width: 80%;
+	margin-right: auto; 
+	margin-left: auto
+}
+
+#work img {
+	margin: 10px;
+	max-width: 100%;
+}
+
+
+
+/* ABOUT PAGE */
+
+
+.header h1 {
+    text-align: center;
+    margin: 40px 0px 40px 0px
+}
+
+
+
+#about_columns img {
+  width: 100%;
+}
+
+.main-text {
+  clear: both;
+  padding-top: 60px;
+  padding: top right bottom left;
+}
+
+
+
+/*Typography*/
+.navbar ul li a {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+	font-family: Georgia, Book Antiqua, serif;
+}
+
+#introtext p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+#skill-list h3 {
+	text-align: center;
+}
+
+/*Color*/
+
+
+.navbar {
+   background-color: black;
+}
+
+.navbar ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+
+body {
+  background-color: #fffeea;
+  color: #34495e;
+}
+
+.skill {
+	background-color: #5AD4C2
+	color: #FFF;
+}
+

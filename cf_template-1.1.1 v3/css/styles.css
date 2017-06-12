@@ -1,0 +1,181 @@
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 10px 60px 10px 60px;
+	z-index: 1;
+  background-color: black;
+}
+
+
+.navbar a:hover {
+     color: #ff0;
+     text-decoration: none;
+}
+
+
+.navbar a {
+	transition: color 600ms;
+}
+
+
+
+.navbar ul {
+	float: right;
+}
+
+.navbar ul li{
+	display: inline-block;
+}
+
+.navbar ul li a {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+
+.projectName ul a {
+  color: yellow;
+  font-size: 1.5em;
+}
+
+body {
+	padding-top: 50px;
+  position: relative;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+
+.carousel img {
+	margin: auto;
+}
+
+.carousel p {
+	padding-bottom: 70px
+}
+
+.jumbotron {
+  background-image: url("../img/earth.png");
+  background-size: cover;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+
+.panel-group {
+	width: 80%;
+	margin-right: auto; 
+	margin-left: auto
+}
+
+#work img {
+	margin: 10px;
+	max-width: 100%;
+}
+
+
+/* ABOUT PAGE */
+
+
+.header h1 {
+    text-align: center;
+    margin: 40px 0px 40px 0px
+}
+
+
+
+#about_columns img {
+  width: 100%;
+}
+
+.main-text {
+  clear: both;
+  padding: 60px 0;
+  padding: top right bottom left;
+}
+
+/* CONTACT PAGE */
+
+#contact{
+    background-image: url("../img/prlximg1.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 100px;
+    height: 400px;
+}
+
+
+/*Typography*/
+
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+	font-family: Georgia, Book Antiqua, serif;
+}
+
+#introtext p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+#skill-list h3 {
+	text-align: center;
+}
+
+#contact {
+  margin: auto; 
+  text-align: center;
+}
+
+/*Color*/
+
+
+body {
+  background-color: #fffeea;
+  color: #34495e;
+}
+
+.skill {
+	background-color: #5AD4C2
+	color: #FFF;
+}
+
+.footer {
+  padding: 50px;
+}
+
+.footer a:active {
+       color: #ff0000;
+}
