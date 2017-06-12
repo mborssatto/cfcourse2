@@ -43,9 +43,9 @@
 }
 
 
-.projectName ul a {
+.navbar-inverse .projectName {
   color: yellow;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-  padding-top: 50px;
+  padding: 75px 0px;
 }
 
 
@@ -81,13 +81,13 @@ body {
 
 
 .panel-group {
-	width: 80%;
+	width: 100%;
 	margin-right: auto; 
 	margin-left: auto
 }
 
 #work img {
-	margin: 10px;
+  margin: 10px 0px;
 	max-width: 100%;
 }
 
@@ -123,9 +123,8 @@ body {
 /*Have the background cover the entire div section*/
     color: white;
 /*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
-    padding:100px;
-    padding-top: 100px;
-    height: 400px;
+    padding:50px;
+    height: 600px;
 }
 
 
@@ -156,8 +155,17 @@ li {
 
 #contact {
   margin: auto; 
-  text-align: center;
 }
+
+#contact p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.form-control {
+  width: 100%;
+  margin: auto;
+}
+
 
 /*Color*/
 
