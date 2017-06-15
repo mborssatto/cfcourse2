@@ -58,7 +58,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#about">About</a></li>
-            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#FAQ">Learn More</a></li>
             <li><a href="#contact">Contact</a></li>
             
           </ul>
@@ -153,17 +153,11 @@
         <div class="col-md-4">
           <h3>My skills</h3>
           <ul id= "skill-list">
-            <li>Product Management</li>
-            <li>Digital project management</li>
-            <li>UX</li>
-            <li>User-centered design</li>
-            <li>Research</li>
-            <li>Ethnography</li>
-            <li>International projects</li>
-            <li>Innovation</li>
-            <li>Languages</li>
-            <li>Online education</li>
-            <li>Content management</li>
+            <li>Buzzword 1</li>
+            <li>Buzzword 2</li>
+            <li>Buzzword 3</li>
+            <li>Buzzword 4</li>
+            <li>Buzzword 5</li>
           </ul>
         </div>
       </div><!-- end row -->
@@ -177,10 +171,29 @@
 
     </div><!--end container -->
 
-    <div class="container">
-      <div class="jumbotron" id="FAQ">
-        <h1>FAQ</h1>
-      </div>
+    <div class="container" id="FAQ">
+      <div class="row">
+          <h1 class="learn-more">Learn More</h1>
+          <div class="modal-button">
+            <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">download whatever file</button>
+            <!-- Small modal -->
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="static"  data-keyboard="false">
+              <div class="modal-dialog modal-lg" role="document">
+
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Look! you can't exit this window unless you hit that x to the side</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body">
+                      How annoying, right? You just wanted to download whatever file. Now you have to hit a small x to the side of this modal.</br>
+                      <embed id="fileIDhere" src="img/moonglasses.jpeg" width="100">
+                  </div>                  
+                </div>
+              </div>
+            </div>
+        </div>
+      </div><!-- end row -->
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -228,7 +241,6 @@
     </div><!-- end FAQ answers container -->
 
 
-
     <div class="container row" id="contact">
       <div class="col-lg-4 col-md-4">
         <h3>Contact us at</h3>
@@ -240,27 +252,32 @@
         <h3>or just fill this in</h3>
         <form>
           <div class="form-group">
-            <label for="inputName">Name</label>
-            <input type="text" class="form-control" placeholder="Your name here">
-          </div>
-          <div class="form-group">
             <label for="inputEmail">Email address*</label>
             <input type="email" class="form-control" placeholder="Your email here" required="required" title="Please tell us your email so we can get in touch with you" minlength="10" maxlength="40">
           </div>
           <div class="form-group">
+            <label for="inputName">color</label>
+            <input type="text" class="form-control" placeholder="what is your favorite color?">
+          </div>
+          <div class="form-group">
             <label for="inputText">Tell me anything</label>
-            <textarea class="form-control" placeholder="Your message here" class="message-box" style="resize:none" cols="40" rows="5">
+            <textarea class="form-control" placeholder="Anything goes in here" class="message-box" style="resize:none" cols="40" rows="5">
             </textarea>
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default">make a wish</button>
         </form>
       </div><!-- end form column -->
     </div><!-- end contact -->
 
+<!-- ===============================================
+THIS YOUTUBE VIDEO IS GIVING ME PROBLEMS WHEN I OPEN THE CONSOLE ON CHROME SO I'M MUTING IT FOR NOW
+====================================================
     <div class="container">
-      <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/DUcbKgvzUEU?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+      <div style="position:relative;height:0;padding-bottom:56.25%">
+        <iframe src="https://www.youtube.com/embed/DUcbKgvzUEU?rel=0?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+        </div>
     </div>
-
+================================================== -->
 
     <div class="container">
       <div class="row" id="work">
@@ -303,18 +320,15 @@
       </div><!-- enf row -->
     </div><!-- end container -->
 
+
+
+
     <footer class="container">
       <p><a href="http://www.google.com">&copy; No copy right whatsoever</a></p>
       <p><a href="https://twitter.com/pivotallabs" class="twitter-follow-button" data-show-count="false">Follow @pivotallabs</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
       <div class="fb-like" data-href="http://musician-pig-73285.bitballoon.com/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>      
     </footer>
 
-
-
-    <!-- ============================= -->
-    <!-- All your JavaScript comes now -->
-    <!-- ============================= -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Twitter script -->
 
@@ -338,11 +352,15 @@
     <!-- end Twitter -->
 
 
-
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+    <!-- ============================= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <!-- Can place script tags with JavaScript files here -->
+
+
 
     <!-- smooth scrolling -->
     <script type="text/javascript"> 
@@ -359,6 +377,8 @@
         return false;
       });
     </script>
+
+
 
   </body>
   </html>

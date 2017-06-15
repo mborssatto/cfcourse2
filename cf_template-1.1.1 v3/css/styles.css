@@ -153,6 +153,17 @@ li {
 	text-align: center;
 }
 
+.learn-more {
+  margin-left: 15px;
+  text-align: left;
+  float: left;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+
 #contact {
   margin: auto; 
 }
@@ -187,3 +198,5 @@ body {
 .footer a:active {
        color: #ff0000;
 }
+
+
